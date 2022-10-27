@@ -1,9 +1,98 @@
-.header{
+/* ======================== Header Start ======================== */
+.header {
     display: inline-flex;
     width: 100%;
     justify-content: center;
 }
-.hParts{
+
+.hParts {
     padding: 30px 45px;
     align-self: center;
 }
+
+/* ======================== Header end ======================== */
+
+/* ======================== Main Start ======================== */
+.inner {
+    width: 1168px;
+    margin: 0 auto;
+    /* position: static !important; */
+}
+
+.titMain {
+    margin: 0 0 60px;
+    color: #292929;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.contArea {
+    padding: '30px 0 60px'
+}
+
+.mainCont {
+    background: #fbfbfb;
+}
+
+.whatsNew {
+    margin: 0 0 -35px -35px;
+    list-style: none;
+}
+
+.tmb {
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    padding: 24px 30px;
+}
+
+.whatsNewItem {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 10%);
+    text-decoration: none;
+}
+
+.whatsNewItem strong {
+    font-size: 18px;
+    color: #292929;
+    line-height: 1.7;
+}
+
+/* ======================== Main End ======================== */
+
+
+/* ======================== Footer Start ======================== */
+
+.footer{color:#fff;font-size:14px;line-height:1.6;text-align:center;background:#292929;margin-top: 30px;}
+.footer .footArea{padding:45px 0 55px;text-align:left}
+.footer .footArea:after{content:'';display:block;clear:both}
+.footer .fUtil{float:left;width:190px; list-style: none;}
+.footer .fUtil li+li{margin-top:5px}
+.footer .fUtil .privacy a{color:yellow}
+.footer .fUtil a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+.footer .fSns {float:right; list-style: none;}
+.footer .fSns li{float:left;margin-left:20px}
+.footer .fSns a{display:block;width:40px;height:40px;overflow:hidden;text-indent:-9999px;background:url(./ico_sns.png) 0 0 no-repeat}
+.footer .fSns a.fb{background-position:0 0}
+.footer .fSns a.ig{background-position:0 -40px}
+.footer .fSns a.yt{background-position:0 -80px}
+.footer .fSns a.ks{background-position:0 -120px}
+.footer .fSns .web_accessibility {margin-top:-5px;}
+.footer .fSns .web_accessibility a {width:100px; height:71px; text-indent:0; background:none;}
+.footer .fSns .web_accessibility a img {width:100%;}
+.footer .fInfo{float:left;font-weight:400;opacity:.6;}
+.footer .fInfo .info li+li{margin-top:5px}
+.footer .fInfo .info{list-style: none;}
+.footer .fInfo .copy{margin-top:5px;}
+
+/* ======================== Footer End ======================== */
